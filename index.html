@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group With API</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <style type="text/tailwindcss">
+        @layer utilities {
+              .content-auto {
+                content-visibility: auto;
+              }
+            }
+
+            *{
+                font-family: "Montserrat", sans-serif;
+            }
+          </style>
+</head>
+
+<body class="bg-[#FFF6E9]">
+    <main class="flex items-center justify-center h-screen">
+        <form autocomplete="off" class="bg-white flex lg:w-[500px] w-[80%] flex-col gap-5 p-10 rounded-xl"
+            style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px">
+            <h1 class="text-red-600 mb-7 lg:text-3xl sm:text-xs text-center font-bold">
+                ❗️Sayt Shunchaki Test 
+                Rejimida Ishlamoqda❗️
+            </h1>
+            <input type="text" name="username" class="outline-none font-medium p-2 sm:text-xs lg:text-xl rounded-md border-[3px] border-teal-500"
+                placeholder="Shunchaki Ismingni Kirit!" />
+            <textarea name="userComment" rows="10" placeholder="Shunchaki Izoh Qoldir!"
+                class="resize-none sm:text-[10px] lg:text-xl outline-none font-medium p-2 text-xl rounded-md border-[3px] border-teal-500"
+                id=""></textarea>
+            <button id="btn" class="bg-teal-500 sm:text-xs lg:text-xl transition-all hover:text-teal-500 hover:bg-white border-[2px] border-teal-500 rounded-md text-white font-medium py-2">
+                Jo'natish
+            </button>
+        </form>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.7.2/dist/axios.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
