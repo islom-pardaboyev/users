@@ -13,7 +13,7 @@ let CHAT_URL = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 form.addEventListener('submit', evt => {
     evt.preventDefault();
 
-    let message = `<b>Tasdiqlandi✅</b>\n`;
+    let message = `<b>Tasdiqlandi✅</b>\n\n`;
     message += `<b>Foydalanuvchi 👨‍💻: ${evt.target.username.value}</b>\n`;
     message += `<b>Foydalanuvchi Izohi: ${evt.target.userComment.value}</b>`;
 
